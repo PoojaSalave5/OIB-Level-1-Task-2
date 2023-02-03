@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT ME</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#contact">CONTACT ME</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="main">
+            <h1 class="headings">I AM <br> POOJA SALAVE</h1>
+            <button class="btn">
+                Hire Me    
+            </button>
+        </div>
+    </section>
+
+    <section id="ABOUT ME">
+            <h1 class="headings">ABOUT ME</h1>
+            <div id="pic"> 
+               <img src="https://i.pinimg.com/736x/6d/37/7a/6d377aee4b7902282b409ecb76daa863.jpg" alt="">
+               <div id="intro">
+                <h2>POOJA SALAVE</h2>
+                <p>I am passionate about designing beautiful, intuitive interfaces that 
+                    help people be more productive. I work with clients to create innovative 
+                    and effective user interfaces that help them get the most out of their 
+                    products.My passion is in creating elegant, minimalist designs that can 
+                    be used a platforms for engaging content or as stand-alone pieces of art
+                    in their own right. Over the years, I have built up a diverse range of skills, 
+                    qualities and attributes that guarantee I will perform highly in my role.</p>
+               </div>
+        </div>
+    </section>
+
+    <section id="SERVICES">
+        <h1 class="headings">SERVICES</h1>
+        <div class="row">
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKesdwSZhAJqy96S1i9IaPv1nnUMaqyxsI-A&usqp=CAU" alt="">
+              <h1 class="headings">Website Design</h1>
+                <p>We make fully responsive website which improve your buisiness and take it to next level using 
+                 interactive features and technologies.</p>
+            </div>
+            <div class="box">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQMAAADCCAMAAAB6zFdcAAAAb1BMVEX///+CvAF8uQB2twC/25XX6L7I4KT///2MwSd1tgDt9eCRxDl9ugDQ5LLU57nD3Zyy1H78/fjN463h7s7z+Orp8trl8NSfylet0nWkzWOHvha72Y6WxkPc68aZx0qdyVO42Ir1+u+jzGCoz2uOwi/MTyhsAAAEOUlEQVR4nO3da5uiIBgGYAHHosiyk6nZYev//8YVy6KuTEcpFva5r/kwOW77+gySEjGeBwAAAAAAAAAAAAAAAAAAAAAAAABgs9W01W7Z8sN1mBTzSYu9fD77eCXmLDhp3ili3OV24MXMb9xnw1xuBp635Cxq2GXEadMulpuxTcMee9au47RXRPno7Q6tugzLTdn++t1qcki2KSEk3Z6ysEpmyEJTpX0P4QvPO85jyqgQ5EIIykQyKfqBCTubLvALQjZexMXxk2dFDsmasLXpAr8hFS8CqGIQW9PlfcFiWBfANYbx+z7TfoMTf5uAxA+mq/yoFXnfCC7o0OFr5UlzI7hgC9OlforfNoLifGhzf2mhjLWOoAhhbrrcT5j+JoIihB/TBeuXVyeCYIzWHjllrOo1G+4rLHSsWoFIllFQ1yRoGI12t5eOgemiNRtXR1beDvivXyJp2RNWj8QfsyXrFlTNXxzkw/XrhsCO8oenKiDmVJcQ3XoAEcvH4esegZaXBef7BrNV63W4t31WtPdlTXdAzsXds3/PhwamC9cnUps+HW7rXyXpLn1oIqYr12da/2L4HnVnTCntGAEhO9Ol67L63RWiih9NF6+J3/VUqK4YHLDrHAERTe9G2KJ7MyAkNV28Hsvu3UFxOeHGTUPepx0wN+4eJ30yoG6MqgWMdufIUMoi87vLVqbL724wGuntzaKRZT3Des8Ke31vHeZbXjxhYlEMGS/vlQXP5KOpLL8rXt41bS6DkcKe0eb7CHI5pSTo9bog+8TZ7Qm5JTeSS+WtFDnDrHcGK+UJqR3XTMqgERGZhgxOyhNaMrR0Vo9hrCEDdRDaksHmx3Hz/hkMHu43hqYPr5XHQ0YGyAAZIANkgAyQATJABhIyQAYSMkAGEjJABhIyQAYSMkAGEjJABhIyQAYSMkAGEjJABhIyQAZS+lRy7/fe1X8v9s0F/AM26hyMjYYM9uocjOa1hf4Fa3UuzlpDBqFyMtiyfFRyO2iaeDrmZG1vDYEeDB9ba9vrUdNyYY/+GUTD61MwO2bilHzKaPF1OXf7Z+B5BznnmQk7JmRV8iDIr9/qyMAb5MHc4insWjKwHDJABtK8VwZ5839ggZoP+rfDLLkmatJmTaQ6rqwgV7v0RzPuxqlQ2HftERoX3bRIwrqcD8KtNYbz3fUDPU+/58rLzbFrSykORqWHs+K8vGwcPS0OctlsuuKPefiNj2+bHzMwWN8XDGoyeP7ch8uQATKQkAEykJABMpCQATKQkAEykJABMpCQgfc0nyK+bR6qEdgx1aS7WJ1Pcf8DPDN13oZTI2gv5Op8ivsCkeqSJ9ziZaHauY8xP/wdps193oZDY8l1qgkaT+Pm8bWB2DTNorupkBM00uc3U+dEbibWrALV0zr8eTVqvApD57sCAAAAAAAAAAAAAAAAAAAAAAAAAID/xV/DMzhgYMAjtwAAAABJRU5ErkJggg==" alt="">
+                <h1 class="headings">Android App Development</h1>
+                <p>We as a proffessional mobile applications development company, can develop a high quality applications with 
+                 affordable cost.</p>
+            </div>
+            <div class="box">
+                <img src="https://i.pinimg.com/736x/15/d8/34/15d834be7287902639a258316e4b0d39.jpg" alt="">
+               <h1 class="headings">Digital Marketing</h1>
+               <p>With our digital marketting services, we help businesses to expand there work and stay ahead in a competetion.</p>
+               </div>
+        </div>
+    </section>
+
+    <section id="CONTACT ME"></section>
+        <h1 class="headings">CONTACT ME</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+</body>
+</html
